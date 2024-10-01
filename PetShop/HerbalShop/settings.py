@@ -32,7 +32,7 @@ import os
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'your_default_gemini_api_key')  # Use a default if needed
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 LOGIN_REDIRECT_URL = '/supplier/admin-requests/'
 
