@@ -5,7 +5,7 @@ certifi==2024.8.30
 charset-normalizer==3.3.2
 colorama==0.4.6
 Django>=5.1.1
-google-generativeai>=0.8.2
+google-generativeai>=0.8.2  # Keep this line
 filelock==3.16.1
 fsspec==2024.9.0
 generativeai==0.0.1
@@ -14,7 +14,7 @@ google-api-core==2.20.0
 google-api-python-client==2.147.0
 google-auth==2.35.0
 google-auth-httplib2==0.2.0
-google-generativeai==0.8.2
+# Removed the duplicate entry for google-generativeai==0.8.2
 googleapis-common-protos==1.65.0
 grpcio==1.66.2
 grpcio-status==1.66.2
